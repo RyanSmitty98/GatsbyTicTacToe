@@ -1,5 +1,4 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import Board from './Board.js';
 
 class Game extends React.Component {
@@ -83,10 +82,7 @@ class Game extends React.Component {
   }
   
   // ========================================
-  
-  ReactDOM.render(<Game />, document.getElementById("root"));
-  
-  function calculateWinner(squares) {
+function calculateWinner(squares) {
     const lines = [
       [0, 1, 2],
       [3, 4, 5],
