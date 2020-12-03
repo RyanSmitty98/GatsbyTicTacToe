@@ -1,5 +1,5 @@
-import React from "react"
-import renderer from "react-test-renderer"
+import React from "react";
+import renderer from "react-test-renderer";
 
 describe('Test Button component', () => {
     it('Test click event', () => {
