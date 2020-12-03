@@ -1,5 +1,6 @@
 import React from 'react';
 import Board from './Board.js';
+import CheckboxWithLabel from './CheckboxWithLabel.js';
 
 class Game extends React.Component {
     constructor(props) {
@@ -66,10 +67,12 @@ class Game extends React.Component {
   
       return (
         <div className="game">
+          <CheckboxWithLabel/>
           <div className="game-board">
             <Board
               squares={current.squares}
               onClick={i => this.handleClick(i)}
+              CheckboxWithLabel
             />
           </div>
           <div className="game-info">

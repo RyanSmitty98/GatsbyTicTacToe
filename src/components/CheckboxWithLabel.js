@@ -2,7 +2,7 @@
 
 import React from 'react';
 
-export default class CheckboxWithLabel extends React.Component {
+class CheckboxWithLabel extends React.Component {
   constructor(props) {
     super(props);
     this.state = {isChecked: false};
@@ -12,8 +12,10 @@ export default class CheckboxWithLabel extends React.Component {
     this.onChange = this.onChange.bind(this);
   }
 
-  onChange() {
+  onChange() { 
+    console.log(this.state);
     this.setState({isChecked: !this.state.isChecked});
+    console.log(this.state);
   }
 
   render() {
@@ -29,3 +31,5 @@ export default class CheckboxWithLabel extends React.Component {
     );
   }
 }
+
+export default CheckboxWithLabel;
