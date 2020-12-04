@@ -1,6 +1,5 @@
 import React from 'react';
 import Board from './Board.js';
-import CheckboxWithLabel from './CheckboxWithLabel.js';
 
 class Game extends React.Component {
     constructor(props) {

@@ -1,6 +1,6 @@
 import React from 'react'
-import Game from '../Game'
+import Board from '../Board'
 import {shallow} from 'enzyme'
 it('renders without crashing', () => {
-  shallow(<Game />);
+  shallow(<Board />);
 });
