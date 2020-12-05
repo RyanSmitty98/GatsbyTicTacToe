@@ -20,6 +20,7 @@ It will open up a local host window in your web browser of choice, will render a
 
 ## Dependencies Used
 gatsby : 2.24.89,
+
 gatsby-image : 2.4.21,
 gatsby-plugin-manifest : 2.4.34,
 gatsby-plugin-offline : 3.2.33,
