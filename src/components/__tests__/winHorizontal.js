@@ -11,8 +11,8 @@ it('Show winner horizontally', () => {
     const wrapper = mount(<Game/>)
     
     //first player and their move(X in spot 1x1)
-    const button = wrapper.find('button.square').first()
-    button.simulate('click')
+    const turn1 = wrapper.find('button.square').first()
+    turn1.simulate('click')
 
     //second player turn (place O in 1x2)
     const turn2 = wrapper.find('button.square').at(3)
