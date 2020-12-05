@@ -6,7 +6,7 @@ import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter() });
 
-it('Show winner diagonally', () => {
+test('Show winner diagonally', () => {
     const wrapper = mount(<Game/>)
     
     //first player and their move(X in spot 1x1)
@@ -33,7 +33,7 @@ it('Show winner diagonally', () => {
     expect(winner).toEqual('Winner: X')
     })
 
-it('Show winner horizontally', () => {
+test('Show winner horizontally', () => {
     const wrapper = mount(<Game/>)
     
     //first player and their move(X in spot 1x1)
@@ -60,7 +60,7 @@ it('Show winner horizontally', () => {
     expect(winner).toEqual('Winner: X')
     })
 
-it('Show winner vertically, O wins', () => {
+test('Show winner vertically, O wins', () => {
     const wrapper = mount(<Game/>)
 
     //first player and their move(X in spot 1x1)
