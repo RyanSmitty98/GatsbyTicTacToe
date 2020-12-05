@@ -1,17 +1,16 @@
 import React from 'react';
-import renderer from 'react-test-renderer';
-import axios from 'axios';
-import Board from '../Board';
 import Game from '../Game';
-import { shallow, configure, mount } from 'enzyme';
+import { configure, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter() });
 
 test('All spaces on board are empty', () => {
     const wrapper = mount(<Game />);
-    expect(wrapper.find('button.square').first().text()).toEqual("");
 
+
+    //Board should be completly empty
+    expect(wrapper.find('button.square').first().text()).toEqual("");
     expect(wrapper.find('button.square').at(1).text()).toEqual("");
     expect(wrapper.find('button.square').at(2).text()).toEqual("");
     expect(wrapper.find('button.square').at(3).text()).toEqual("");
@@ -22,6 +21,7 @@ test('All spaces on board are empty', () => {
     expect(wrapper.find('button.square').at(8).text()).toEqual("");
 
 
+    //adding clicks one at a time
     const turn1 = wrapper.find('button.square').first()
     turn1.simulate('click')
 
@@ -43,6 +43,7 @@ test('All spaces on board are empty', () => {
     const turn7 = wrapper.find('button.square').at(6)
     turn7.simulate('click')
 
+    //checking if board is correct and if winner is X
     expect(wrapper.find('button.square').first().text()).toEqual("X");
     expect(wrapper.find('button.square').at(1).text()).toEqual("O");
     expect(wrapper.find('button.square').at(2).text()).toEqual("X");

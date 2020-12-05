@@ -18,6 +18,7 @@ function Square(props) {
       );
     }
   
+    //rendering the squares
     render() {
       return (
         <div>
