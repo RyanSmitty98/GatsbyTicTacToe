@@ -2,7 +2,7 @@
 * [Purpose](#Purpose)
 * [Setup](#setup)
 * [Testing](#testing)
-* [Dependencies Used](#Dependencies Used)
+* [Dependencies](#dependencies)
 
 ## Purpose
 This project has been created to create a game of TicTacToe for two players.
