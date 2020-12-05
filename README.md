@@ -22,25 +22,47 @@ It will open up a local host window in your web browser of choice, will render a
 gatsby : 2.24.89,
 
 gatsby-image : 2.4.21,
+
 gatsby-plugin-manifest : 2.4.34,
+
 gatsby-plugin-offline : 3.2.33,
+
 gatsby-plugin-react-helmet : 3.3.14,
+
 gatsby-plugin-sharp : 2.6.42,
+
 gatsby-source-filesystem : 2.3.34,
+
 gatsby-transformer-sharp : 2.5.17,
+
 prop-types : 15.7.2,
+
 react : 16.12.0,
+
 react-dom : 16.12.0,
+
 react-helmet : 6.1.0,
+
 @testing-library/jest-dom : 5.11.5,
+
 @testing-library/react : 11.1.1,
+
 babel-jest : 26.6.3,
+
 babel-preset-gatsby : 0.5.16,
+
 cypress : 5.5.0,
+
 enzyme : 3.11.0,
+
 enzyme-adapter-react-16 : 1.15.5,
+
 identity-obj-proxy : 3.0.0,
+
 jest : 26.6.3,
+
 prettier :2.1.2,
+
 react-test-renderer : 17.0.1,
-start-server-and-test : 1.11.5 
+
+start-server-and-test : 1.11.5
