@@ -1,7 +1,7 @@
 ## Table of contents
 * [Purpose](#Purpose)
 * [Setup](#setup)
-* [Testing](#testing)
+* [Testing](#tests)
 * [Dependencies](#dependencies)
 
 ## Purpose
@@ -14,11 +14,11 @@ To run this project, after downlaoding, navigate to the file and use the "gatsby
 In your web browser of choice enter "http://localhost:8000/" and a 3x3 board will be displayed that accepts clicks to place either an 'X' or an 'O' in the spot.
 The time control mechanic allows the player to go back in time just by pressing the corresponding button.
 
-## Tests Ran
+## Tests
 To run this project, after downlaoding, navigate to the file and use the "gatsby develop" comand.
 It will open up a local host window in your web browser of choice, will render a 3x3 tic-tac-toe board and allow for two players to play it.
 
-## Dependencies Used
+## Dependencies
 gatsby : 2.24.89,
 
 gatsby-image : 2.4.21,
