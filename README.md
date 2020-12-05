@@ -15,8 +15,7 @@ In your web browser of choice enter "http://localhost:8000/" and a 3x3 board wil
 The time control mechanic allows the player to go back in time just by pressing the corresponding button.
 
 ## Tests
-To run this project, after downlaoding, navigate to the file and use the "gatsby develop" comand.
-It will open up a local host window in your web browser of choice, will render a 3x3 tic-tac-toe board and allow for two players to play it.
+The testing has a wide range of different tests. Including making sure that a click is regestered, making sure that either player can win in either direction, and making sure that the board starts empty.
 
 ## Dependencies
 gatsby : 2.24.89,
